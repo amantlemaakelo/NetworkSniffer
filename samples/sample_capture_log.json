@@ -1,0 +1,335 @@
+[
+  {
+    "timestamp": "2026-08-15T23:56:33.675510+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 52392,
+    "dst_port": 8080,
+    "length": 54,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.675666+00:00",
+    "src_ip": "10.0.1.47",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 44979,
+    "dst_port": 443,
+    "length": 91,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.675755+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 41104,
+    "dst_port": 3389,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: RDP (common ransomware entry point)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.675835+00:00",
+    "src_ip": "10.0.1.11",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 59708,
+    "dst_port": 443,
+    "length": 233,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.675905+00:00",
+    "src_ip": "10.0.1.42",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 47750,
+    "dst_port": 443,
+    "length": 77,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.675968+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 54353,
+    "dst_port": 25,
+    "length": 54,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676021+00:00",
+    "src_ip": "10.0.1.29",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 44505,
+    "dst_port": 443,
+    "length": 127,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676083+00:00",
+    "src_ip": "10.0.1.33",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 44634,
+    "dst_port": 443,
+    "length": 110,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676142+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 55868,
+    "dst_port": 80,
+    "length": 54,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676192+00:00",
+    "src_ip": "10.0.1.22",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 52897,
+    "dst_port": 443,
+    "length": 250,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676255+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 41047,
+    "dst_port": 23,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: Telnet (unencrypted remote admin)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676312+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 55826,
+    "dst_port": 445,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: SMB (common lateral-movement target)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676367+00:00",
+    "src_ip": "10.0.1.30",
+    "dst_ip": "10.0.2.5",
+    "protocol": "TCP",
+    "src_port": 52000,
+    "dst_port": 23,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: Telnet (unencrypted remote admin)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676422+00:00",
+    "src_ip": "10.0.1.22",
+    "dst_ip": "172.16.0.20",
+    "protocol": "TCP",
+    "src_port": 51000,
+    "dst_port": 80,
+    "length": 193,
+    "alerts": [
+      "Possible plaintext credentials in HTTP payload"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676488+00:00",
+    "src_ip": "10.0.1.23",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 41345,
+    "dst_port": 443,
+    "length": 121,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676576+00:00",
+    "src_ip": "10.0.1.30",
+    "dst_ip": "10.0.2.5",
+    "protocol": "TCP",
+    "src_port": 52000,
+    "dst_port": 23,
+    "length": 88,
+    "alerts": [
+      "Suspicious port: Telnet (unencrypted remote admin)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676655+00:00",
+    "src_ip": "10.0.1.15",
+    "dst_ip": "10.0.0.1",
+    "protocol": "DNS",
+    "src_port": 53321,
+    "dst_port": 53,
+    "length": 78,
+    "alerts": [],
+    "dns_query": "outlook.office.com."
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676784+00:00",
+    "src_ip": "10.0.1.18",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 53039,
+    "dst_port": 443,
+    "length": 154,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676853+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 45321,
+    "dst_port": 139,
+    "length": 54,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676905+00:00",
+    "src_ip": "10.0.1.15",
+    "dst_ip": "10.0.0.1",
+    "protocol": "DNS",
+    "src_port": 53321,
+    "dst_port": 53,
+    "length": 89,
+    "alerts": [],
+    "dns_query": "internal-banking-portal.local."
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.676969+00:00",
+    "src_ip": "10.0.1.22",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 56238,
+    "dst_port": 443,
+    "length": 221,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677031+00:00",
+    "src_ip": "10.0.1.48",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 43395,
+    "dst_port": 443,
+    "length": 224,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677090+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 46363,
+    "dst_port": 135,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: MS-RPC (common exploitation target)",
+      "Possible port scan from 10.0.1.99 (>= 8 ports in 10s)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677157+00:00",
+    "src_ip": "10.0.1.17",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 45902,
+    "dst_port": 443,
+    "length": 214,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677218+00:00",
+    "src_ip": "10.0.1.46",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 55180,
+    "dst_port": 443,
+    "length": 188,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677278+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 43962,
+    "dst_port": 21,
+    "length": 54,
+    "alerts": [
+      "Suspicious port: FTP (unencrypted file transfer)",
+      "Possible port scan from 10.0.1.99 (>= 8 ports in 10s)"
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677344+00:00",
+    "src_ip": "10.0.1.15",
+    "dst_ip": "10.0.0.1",
+    "protocol": "DNS",
+    "src_port": 53321,
+    "dst_port": 53,
+    "length": 76,
+    "alerts": [],
+    "dns_query": "sap-erp.internal."
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677403+00:00",
+    "src_ip": "10.0.1.32",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 49882,
+    "dst_port": 443,
+    "length": 216,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677461+00:00",
+    "src_ip": "10.0.1.32",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 47061,
+    "dst_port": 443,
+    "length": 86,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677517+00:00",
+    "src_ip": "10.0.1.28",
+    "dst_ip": "172.16.0.10",
+    "protocol": "TCP",
+    "src_port": 58719,
+    "dst_port": 443,
+    "length": 97,
+    "alerts": []
+  },
+  {
+    "timestamp": "2026-08-15T23:56:33.677602+00:00",
+    "src_ip": "10.0.1.99",
+    "dst_ip": "10.0.2.10",
+    "protocol": "TCP",
+    "src_port": 43252,
+    "dst_port": 22,
+    "length": 54,
+    "alerts": [
+      "Possible port scan from 10.0.1.99 (>= 8 ports in 10s)"
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+BankWatch Network Sniffer — Ctrl+C to stop
+
+[*] Reading packets from ../samples/demo_traffic.pcap
+[TCP  ]       10.0.1.99:52392  -> 10.0.2.10      :8080   len=54
+[TCP  ]       10.0.1.47:44979  -> 172.16.0.10    :443    len=91
+[TCP  ]       10.0.1.99:41104  -> 10.0.2.10      :3389   len=54
+   [ALERT] Suspicious port: RDP (common ransomware entry point)
+[TCP  ]       10.0.1.11:59708  -> 172.16.0.10    :443    len=233
+[TCP  ]       10.0.1.42:47750  -> 172.16.0.10    :443    len=77
+[TCP  ]       10.0.1.99:54353  -> 10.0.2.10      :25     len=54
+[TCP  ]       10.0.1.29:44505  -> 172.16.0.10    :443    len=127
+[TCP  ]       10.0.1.33:44634  -> 172.16.0.10    :443    len=110
+[TCP  ]       10.0.1.99:55868  -> 10.0.2.10      :80     len=54
+[TCP  ]       10.0.1.22:52897  -> 172.16.0.10    :443    len=250
+[TCP  ]       10.0.1.99:41047  -> 10.0.2.10      :23     len=54
+   [ALERT] Suspicious port: Telnet (unencrypted remote admin)
+[TCP  ]       10.0.1.99:55826  -> 10.0.2.10      :445    len=54
+   [ALERT] Suspicious port: SMB (common lateral-movement target)
+[TCP  ]       10.0.1.30:52000  -> 10.0.2.5       :23     len=54
+   [ALERT] Suspicious port: Telnet (unencrypted remote admin)
+[TCP  ]       10.0.1.22:51000  -> 172.16.0.20    :80     len=193
+   [ALERT] Possible plaintext credentials in HTTP payload
+[TCP  ]       10.0.1.23:41345  -> 172.16.0.10    :443    len=121
+[TCP  ]       10.0.1.30:52000  -> 10.0.2.5       :23     len=88
+   [ALERT] Suspicious port: Telnet (unencrypted remote admin)
+[DNS  ]       10.0.1.15:53321  -> 10.0.0.1       :53     len=78  query=outlook.office.com.
+[TCP  ]       10.0.1.18:53039  -> 172.16.0.10    :443    len=154
+[TCP  ]       10.0.1.99:45321  -> 10.0.2.10      :139    len=54
+[DNS  ]       10.0.1.15:53321  -> 10.0.0.1       :53     len=89  query=internal-banking-portal.local.
+[TCP  ]       10.0.1.22:56238  -> 172.16.0.10    :443    len=221
+[TCP  ]       10.0.1.48:43395  -> 172.16.0.10    :443    len=224
+[TCP  ]       10.0.1.99:46363  -> 10.0.2.10      :135    len=54
+   [ALERT] Suspicious port: MS-RPC (common exploitation target)
+   [ALERT] Possible port scan from 10.0.1.99 (>= 8 ports in 10s)
+[TCP  ]       10.0.1.17:45902  -> 172.16.0.10    :443    len=214
+[TCP  ]       10.0.1.46:55180  -> 172.16.0.10    :443    len=188
+[TCP  ]       10.0.1.99:43962  -> 10.0.2.10      :21     len=54
+   [ALERT] Suspicious port: FTP (unencrypted file transfer)
+   [ALERT] Possible port scan from 10.0.1.99 (>= 8 ports in 10s)
+[DNS  ]       10.0.1.15:53321  -> 10.0.0.1       :53     len=76  query=sap-erp.internal.
+[TCP  ]       10.0.1.32:49882  -> 172.16.0.10    :443    len=216
+[TCP  ]       10.0.1.32:47061  -> 172.16.0.10    :443    len=86
+[TCP  ]       10.0.1.28:58719  -> 172.16.0.10    :443    len=97
+[TCP  ]       10.0.1.99:43252  -> 10.0.2.10      :22     len=54
+   [ALERT] Possible port scan from 10.0.1.99 (>= 8 ports in 10s)
+
+============================================================
+Capture Summary
+============================================================
+    total_packets: 31
+              tcp: 28
+              udp: 3
+             icmp: 0
+              dns: 3
+           alerts: 11
+============================================================
+
+[+] CSV log written to ../samples/sample_capture_log.csv
+[+] JSON log written to ../samples/sample_capture_log.json
