@@ -160,6 +160,6 @@ may violate computer misuse laws in most jurisdictions.
 
 ## Author
 
-**Amantle Maakelo** — MSc IT Management, Berlin School of Business and Innovation
-Pivoting into Cybersecurity & SAP | Founder, VitaNova Innovations
+**Amantle Maakelo** — 
+Pivoting into Cybersecurity & SAP 
 [GitHub](https://github.com/amantlemaakelo)
