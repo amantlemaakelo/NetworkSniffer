@@ -1,6 +1,6 @@
 # BankWatch — Network Traffic Visibility & Anomaly Sniffer
 
-> CodeAlpha Cyber Security Internship — Task 1: Basic Network Sniffer
+> Basic Network Sniffer
 > Built and extended by **Amantle Maakelo**
 
 A Python-based packet sniffer that captures live network traffic, breaks it
