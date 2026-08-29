@@ -163,3 +163,17 @@ may violate computer misuse laws in most jurisdictions.
 **Amantle Maakelo** — 
 Pivoting into Cybersecurity & SAP 
 [GitHub](https://github.com/amantlemaakelo)
+
+## Copyright & licence
+
+© 2026 Amantle Maakelo. **All rights reserved.** This repository is
+**proprietary**, not open source. It is published only so that
+prospective employers, clients, and collaborators can review the
+author's work.
+
+You may view and read it, and quote short excerpts with attribution when
+reviewing or commenting on the author's work. Any other use — copying,
+modifying, redistributing, hosting, or building on it, commercial or
+not — requires the owner's **prior written permission**, requested via
+[GitHub](https://github.com/amantlemaakelo). See [`LICENSE`](LICENSE)
+for the full terms.
